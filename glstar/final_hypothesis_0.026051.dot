@@ -1,0 +1,12 @@
+digraph G {
+  Initial [shape=point];
+  Initial -> S0;
+  S0 [label="", xlabel= "{}"];
+  S0 -> S0 [label="t1t2t3p1;t1-t2t3p1;t1t2-t3p1;t1-t2-t3p1;"];
+  S0 -> S1 [label="-t1t2t3p2;-t1-t2t3p2;-t1t2-t3p2;-t1-t2-t3p2;"];
+  S0 -> S2 [label="t1t2t3p2;-t1t2t3p1;t1-t2t3p2;-t1-t2t3p1;t1t2-t3p2;-t1t2-t3p1;t1-t2-t3p2;-t1-t2-t3p1;"];
+  S1 [label="-t1-t2-t3p2;", xlabel= "{-t1-t2-t3,t1-t2-t3,-t1t2-t3,t1t2-t3,-t1-t2t3,t1-t2t3,-t1t2t3,t1t2t3,}"];
+  S1 -> S2 [label="t1t2t3p2;t1t2t3p1;-t1t2t3p2;-t1t2t3p1;t1-t2t3p2;t1-t2t3p1;-t1-t2t3p2;-t1-t2t3p1;t1t2-t3p2;t1t2-t3p1;-t1t2-t3p2;-t1t2-t3p1;t1-t2-t3p2;t1-t2-t3p1;-t1-t2-t3p2;-t1-t2-t3p1;"];
+  S2 [label="sinkstate", xlabel= "{}"];
+  S2 -> S2 [label="t1t2t3p2;t1t2t3p1;-t1t2t3p2;-t1t2t3p1;t1-t2t3p2;t1-t2t3p1;-t1-t2t3p2;-t1-t2t3p1;t1t2-t3p2;t1t2-t3p1;-t1t2-t3p2;-t1t2-t3p1;t1-t2-t3p2;t1-t2-t3p1;-t1-t2-t3p2;-t1-t2-t3p1;"];
+}

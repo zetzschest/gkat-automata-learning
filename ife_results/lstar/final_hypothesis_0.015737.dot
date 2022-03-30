@@ -1,0 +1,11 @@
+digraph G {
+  Initial [shape=point];
+  Initial -> S0;
+  S0 [label="", xlabel= "{}"];
+  S0 -> S1 [label="t1p3;t1p2;-t1p3;-t1p1;"];
+  S0 -> S2 [label="t1p1;-t1p2;"];
+  S1 [label="-t1p1;", xlabel= "{}"];
+  S1 -> S1 [label="t1p3;t1p2;t1p1;-t1p3;-t1p2;-t1p1;"];
+  S2 [label="-t1p2;", xlabel= "{-t1,t1,}"];
+  S2 -> S1 [label="t1p3;t1p2;t1p1;-t1p3;-t1p2;-t1p1;"];
+}

@@ -1,0 +1,9 @@
+actions: 2, tests: 1, mq_glstar: 36, mq_lstar: 78
+actions: 2, tests: 2, mq_glstar: 102, mq_lstar: 300
+actions: 2, tests: 3, mq_glstar: 330, mq_lstar: 1176
+actions: 2, tests: 4, mq_glstar: 1170, mq_lstar: 4656
+actions: 2, tests: 5, mq_glstar: 4386, mq_lstar: 18528
+actions: 2, tests: 6, mq_glstar: 16962, mq_lstar: 73920
+actions: 2, tests: 7, mq_glstar: 66690, mq_lstar: 295296
+actions: 2, tests: 8, mq_glstar: 264450, mq_lstar: 1180416
+actions: 2, tests: 9, mq_glstar: 1053186, mq_lstar: 4720128
