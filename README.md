@@ -26,8 +26,12 @@ module Test2 = struct
   Test.test e max_number_of_tests number_of_actions;
 end
 ```
-The relevant syntax for defining expressions is defined in [expressions.ml](expressions.ml). Before running 
+The relevant syntax for defining expressions can be found in [expressions.ml](expressions.ml). Before running 
 ```
 ocamlc -g -o test expressions.ml extra.ml automata.ml bisimulation.ml oracle.ml table.ml test.ml
+```
+and 
+```
+./test
 ```
 make sure to clear the content of the folders [glstar](glstar) and [lstar](lstar).
