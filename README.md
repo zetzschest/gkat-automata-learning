@@ -3,7 +3,7 @@
 
 ## About this repository
 
-This repository allows one to compare, for any GKAT expression e, the number of membership queries to its language semantics [e] required by GL∗  for learning a GKAT automaton representation of *e*, with the number of membership queries to [e] required by L∗ for learning a Moore automaton representation of e. For each run, we output, for both algorithms, a trace of the involved hypotheses as tables in the .csv format and graphs in the .dot format, as well as an overview of the numbers of involved queries in the .csv format. 
+The code in this repository implements parts of the theory presented in the paper [Guarded Kleene Algebra with Tests: Automata Learning](https://arxiv.org/abs/2204.14153). More specifically, it allows one to compare, for any GKAT expression e, the number of membership queries to its language semantics [e] required by GL∗  for learning a GKAT automaton representation of *e*, with the number of membership queries to [e] required by L∗ for learning a Moore automaton representation of e. For each run, we output, for both algorithms, a trace of the involved hypotheses as tables in the .csv format and graphs in the .dot format, as well as an overview of the numbers of involved queries in the .csv format. 
 
 ### Example 1 
 
